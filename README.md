@@ -1,6 +1,6 @@
 # PIPE Flow
 
-Um sistema para monitoramento de condições de tubos de irrigação, com base na vazão, servindo 
+Um sistema para monitoramento de condições de tubos de irrigação (durante a irrigação), com base na vazão, servindo 
 para gotejamento, aspersão, etc.
 
 # Autores
@@ -11,37 +11,7 @@ para gotejamento, aspersão, etc.
 - Jonas Cassiano dos Santos (dev),
 - Gilberto Lima Junior (especialista)
 
-# Rodando o Projeto (_frontend_)
+## Os README
 
-Instale o npm v6.4+ e, na pasta `./frontend`, execute
-
-```shell-session
-npm install
-```
-
-e, após as dependências instaladas, rode
-
-```shell-session
-npm run serve
-```
-
-PRONTO! Agora é só acessar `localhost:8080` (se tudo está rodando com as opções padrão)
-
-# Tecnologias utilizadas
-
-## Linguagens
-
-- HTML
-- ES6
-- css
-
-## Ferramentas, Frameworks e bibliotecas
-
-- Vuex (MIT)
-- VueRouter (MIT)
-- Vuetify (MIT)
-- Vuetify Dashboard (MIT)
-- Vue.js (MIT)
-- git (GPLv2)
-- vue-cli3 (MIT)
-- Firebase (Contrato e licença proprietários, serviço pago)
+- [front]()
+- [hardware]()
