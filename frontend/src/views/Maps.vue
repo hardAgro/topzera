@@ -13,9 +13,10 @@
             v-for="({ position, id }, key) in sensorsAsArray"
           >
             <gmap-marker
-               v-if="sensorsAsArray && sensorsAsArray.length && flowById(id)"
+              v-if="sensorsAsArray && sensorsAsArray.length && flowById(id)"
               :position="position"
               :icon="flowById(id).flow < 10 || flowById(id).flow > 40 ? redIcon : greenIcon"
+              :key="key"
             />
           </template>
         </gmap-map>
