@@ -35,7 +35,7 @@ PRONTO! Agora é só acessar (se tudo está rodando com as opções padrão) `lo
 - ES6
 - css
 
-## Frameworks e bibliotecas
+## Ferramentas, Frameworks e bibliotecas
 
 - Vuex (MIT)
 - VueRouter (MIT)
@@ -44,7 +44,4 @@ PRONTO! Agora é só acessar (se tudo está rodando com as opções padrão) `lo
 - Vue.js (MIT)
 - git
 - vue-cli3
-
-## Produtos
-
 - Firebase
