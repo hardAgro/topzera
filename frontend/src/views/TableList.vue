@@ -59,7 +59,7 @@ export default {
     headers: [
       {
         sortable: false,
-        text: 'Timestamp',
+        text: 'Horário',
         value: 'timestamp'
       },
       {
