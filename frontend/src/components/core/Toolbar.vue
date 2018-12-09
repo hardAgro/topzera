@@ -30,7 +30,7 @@
         py-2
       >
         <v-text-field
-          v-if="responsiveInput"
+          v-if="responsiveInput && $route.name !== 'Mapa'"
           :value="value"
           class="mr-4 mt-2 purple-input"
           label="Filtrar..."
