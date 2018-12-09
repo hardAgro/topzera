@@ -11,7 +11,7 @@
         md12
         lg12
       >
-        <p class="headline">Sistemas de irrigação {{ flow ? 'funcionando' : 'desligado' }} 
+        <p class="headline">Sistemas de irrigação {{ flow ? 'ligados' : 'desligado' }}
           <v-icon :color="flow ? 'green' : 'red'">{{ flow ? 'check_circle' : 'info' }}</v-icon>
         </p>
       </v-flex>
