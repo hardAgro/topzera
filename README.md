@@ -18,4 +18,4 @@ para gotejamento, aspersão, etc.
 
 # Licensa
 
-[MIT]('./LICENSE.txt')
+[MIT](LICENSE.txt)
