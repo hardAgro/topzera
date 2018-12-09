@@ -31,6 +31,7 @@ export default [
   },
   {
     path: '/maps/:sensorId?',
+    name: 'Mapa',
     view: 'Maps',
     props: true
   },
