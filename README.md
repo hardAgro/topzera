@@ -11,7 +11,11 @@ para gotejamento, aspersão, etc.
 - Jonas Cassiano dos Santos (dev),
 - Gilberto Lima Junior (especialista)
 
-## READMEs
+# READMEs
 
 - [front](https://github.com/hardAgro/topzera/tree/master/frontend)
 - [hardware](#)
+
+# Licensa
+
+[MIT]('./LICENSE.txt')
