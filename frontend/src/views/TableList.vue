@@ -64,7 +64,7 @@ export default {
       },
       {
         sortable: false,
-        text: 'Vazão',
+        text: 'Vazão (ml/min)',
         value: 'flow'
       }
     ]
