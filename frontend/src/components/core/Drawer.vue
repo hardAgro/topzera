@@ -22,11 +22,16 @@
           <v-list-tile-avatar
             color="white"
           >
-            <v-img
-              :src="logo"
+            <v-avatar
               height="34"
               contain
-            />
+            >
+              <img
+                :src="logo"
+                alt="PIPE flow"
+              >
+            </v-avatar>
+
           </v-list-tile-avatar>
           <v-list-tile-title class="title">
             PIPE Flow
@@ -62,7 +67,7 @@ import {
 
 export default {
   data: () => ({
-    logo: './img/vuetifylogo.png',
+    logo: './img/logo.png',
     links: [
       {
         to: '/dashboard',
