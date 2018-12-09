@@ -19,7 +19,7 @@
           :class="irregular ? 'red--text' : 'grey--text'"
           class="display-1 font-weight-thin mr-auto"
         >
-          {{ flow }} l/min
+          {{ flow.toFixed(2) }} l/min
 
           <v-icon
             v-if="irregular"
