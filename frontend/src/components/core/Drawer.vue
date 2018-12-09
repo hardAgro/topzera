@@ -29,7 +29,7 @@
             />
           </v-list-tile-avatar>
           <v-list-tile-title class="title">
-            Nome do produto
+            PIPE Flow
           </v-list-tile-title>
         </v-list-tile>
         <v-divider/>
