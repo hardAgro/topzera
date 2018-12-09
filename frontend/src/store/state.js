@@ -5,10 +5,7 @@ export default {
     NODE1: {
       id: 'NODE1',
       name: 'Sensor da linha 1',
-      position: {
-        lat: -9.4578987,
-        lng: -40.4894545
-      },
+      position: {lat:-9.458222, lng:-40.489628},
       readings: [],
       status: 0
     },
@@ -16,10 +13,7 @@ export default {
     NODE2: {
       id: 'NODE2',
       name: 'Sensor da linha 2',
-      position: {
-        lat: -9.4578987,
-        lng: -40.4894545
-      },
+      position: {lat:-9.458305, lng:-40.489484},
       readings: [],
       status: 0
     }

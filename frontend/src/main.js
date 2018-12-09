@@ -19,13 +19,19 @@ import App from './App'
 import i18n from '@/i18n'
 import router from '@/router'
 import store from '@/store'
+import * as VueGoogleMaps from 'vue2-google-maps'
 
 // Sync store with router
 sync(store, router)
 
 Vue.config.productionTip = false
 
-/* eslint-disable no-new */
+Vue.use(VueGoogleMaps, {
+  load: {
+    key: 'AIzaSyDh9TVWNO65ZbU-McWNsPaxS_cvSlKboCc'
+  }
+})
+
 new Vue({
   i18n,
   router,

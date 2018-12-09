@@ -10,6 +10,10 @@ export default {
     return sensorId => _.last(_.find(state.sensors, ['id', sensorId]).readings)
   },
 
+  sensorsAsArray (state) {
+    return _.map(state.sensors)
+  },
+
   flow (state, getters) {
     const flowById = getters.flowById
 

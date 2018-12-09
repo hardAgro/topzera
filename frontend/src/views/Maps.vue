@@ -3,11 +3,21 @@
     <div class="mapouter">
       <div class="gmap_canvas">
         <gmap-map
-          :center="{lat:10, lng:10}"
-          :zoom="3"
+          ref="gMap"
+          :center="{ lat:-9.457740, lng:-40.489282 }"
+          :zoom="18"
           map-type-id="satellite"
           style="width: 100%; height: 100%"
         >
+          <template
+            v-for="({ position, id }, key) in sensorsAsArray"
+          >
+            <gmap-marker
+               v-if="sensorsAsArray && sensorsAsArray.length && flowById(id)"
+              :position="position"
+              :icon="flowById(id).flow < 10 || flowById(id).flow > 40 ? redIcon : greenIcon"
+            />
+          </template>
         </gmap-map>
       </div>
     </div>
@@ -15,7 +25,9 @@
 </template>
 
 <script>
-import { mapState } from 'vuex'
+import { mapGetters } from 'vuex'
+import greenIcon from '@/icons/check_circle.svg'
+import redIcon from '@/icons/error.svg'
 
 export default {
   props: {
@@ -27,11 +39,14 @@ export default {
 
   data () {
     return {
-      zoom: 18
+      zoom: 18,
+      greenIcon,
+      redIcon
     }
   },
 
   computed: {
+    ...mapGetters(['sensorsAsArray', 'flowById'])
   }
 }
 </script>
