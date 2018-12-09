@@ -68,13 +68,13 @@ export default {
         to: '/dashboard',
         icon: 'mdi-view-dashboard',
         text: 'Painel'
-      }
+      },
 
-      // {
-      //   to: '/maps',
-      //   icon: 'mdi-map-marker',
-      //   text: 'Maps'
-      // }
+      {
+        to: '/maps',
+        icon: 'mdi-map-marker',
+        text: 'Mapa'
+      }
     ],
     responsive: false
   }),
