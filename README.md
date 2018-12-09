@@ -16,6 +16,6 @@ para gotejamento, aspersão, etc.
 - [front](https://github.com/hardAgro/topzera/tree/master/frontend)
 - [hardware](#)
 
-# Licensa
+# Licença
 
 [MIT](LICENSE.txt)
