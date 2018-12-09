@@ -29,7 +29,7 @@ PRONTO! Agora é só acessar `localhost:8080` (se tudo está rodando com as opç
 
 # Tecnologias utilizadas
 
-## Linguagens de programação
+## Linguagens
 
 - HTML
 - ES6
@@ -42,6 +42,6 @@ PRONTO! Agora é só acessar `localhost:8080` (se tudo está rodando com as opç
 - Vuetify (MIT)
 - Vuetify Dashboard (MIT)
 - Vue.js (MIT)
-- git
-- vue-cli3
+- git (GPLv2)
+- vue-cli3 (MIT)
 - Firebase (Contrato e licença proprietários, serviço pago)
