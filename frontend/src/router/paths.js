@@ -16,7 +16,7 @@ export default [
   },
   {
     path: '/table-list/:sensorId',
-    name: 'Table List',
+    name: 'Dados históricos',
     view: 'TableList',
     props: true
   },

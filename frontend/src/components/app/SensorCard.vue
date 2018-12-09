@@ -56,15 +56,7 @@
         <v-progress-linear indeterminate />
       </v-layout>
     </v-card-text>
-    <v-card-actions>
-      <v-btn
-        flat
-        color="success"
-        @click="$emit('detail', id)"
-      >
-        Detalhes
-      </v-btn>
-    </v-card-actions>
+    <v-card-actions class="pb-5" />
   </v-card>
 </template>
 

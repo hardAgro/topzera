@@ -29,7 +29,6 @@
           :readings="readings"
           :flow-min="10"
           :flow-max="40"
-          @detail="onClickDetail"
         />
       </v-flex>
     </v-layout>
@@ -60,12 +59,6 @@ export default {
 
     sensorList () {
       return _.filter(this.sensors, ({ name }) => normalize(name).match(new RegExp(normalize(this.filter))))
-    }
-  },
-
-  methods: {
-    onClickDetail (sensorId) {
-      this.$router.push(`/table-list/${sensorId}`)
     }
   }
 }
