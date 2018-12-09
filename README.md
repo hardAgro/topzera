@@ -5,11 +5,11 @@ para gotejamento, aspersão, etc.
 
 # Autores
 
-- Jedson Yuri Campos Melo,
-- Leonardo Cavalcante do Prado,
-- Esron Dtamar da Silva,
-- Jonas Cassiano dos Santos,
-- Gilberto Lima Junior
+- Jedson Yuri Campos Melo (dev),
+- Leonardo Cavalcante do Prado (dev),
+- Esron Dtamar da Silva (dev),
+- Jonas Cassiano dos Santos (dev),
+- Gilberto Lima Junior (especialista)
 
 # Rodando o Projeto (_frontend_)
 
@@ -25,7 +25,7 @@ e, após as dependências instaladas, rode
 npm run serve
 ```
 
-PRONTO! Agora é só acessar (se tudo está rodando com as opções padrão) `localhost:8080`
+PRONTO! Agora é só acessar `localhost:8080` (se tudo está rodando com as opções padrão)
 
 # Tecnologias utilizadas
 
@@ -44,4 +44,4 @@ PRONTO! Agora é só acessar (se tudo está rodando com as opções padrão) `lo
 - Vue.js (MIT)
 - git
 - vue-cli3
-- Firebase
+- Firebase (Contrato e licença proprietários, serviço pago)
