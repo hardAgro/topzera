@@ -19,7 +19,7 @@
           :class="irregular ? 'red--text' : 'grey--text'"
           class="display-1 font-weight-thin mr-auto"
         >
-          {{ flow }} l/min
+          {{ flow.toFixed(2) }} l/min
 
           <v-icon
             v-if="irregular"
@@ -48,7 +48,7 @@
       </v-layout>
 
       <v-layout
-        v-else
+        v-if="flow === null"
         row
         justify-space-around
         class="pl-3 pr-3"
@@ -56,7 +56,15 @@
         <v-progress-linear indeterminate />
       </v-layout>
     </v-card-text>
-    <v-card-actions class="pb-5" />
+    <v-card-actions class="pb-5">
+      <span
+        v-if="lastTimestamp"
+        :class="irregular ? 'red--text' : 'grey--text'"
+      >
+        Última leitura às {{ lastTimestamp }}
+      </span>
+      <span v-else />
+    </v-card-actions>
   </v-card>
 </template>
 
@@ -110,6 +118,10 @@ export default {
 
     flow () {
       return this.readings.length ? _.last(this.readings).flow : null
+    },
+
+    lastTimestamp () {
+      return this.readings.length ? _.last(this.readings).timestamp : null
     }
   }
 }
