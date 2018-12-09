@@ -11,7 +11,7 @@ para gotejamento, aspersão, etc.
 - Jonas Cassiano dos Santos (dev),
 - Gilberto Lima Junior (especialista)
 
-## Os README
+## READMEs
 
-- [front]()
-- [hardware]()
+- [front](https://github.com/hardAgro/topzera/tree/master/frontend)
+- [hardware](#)
